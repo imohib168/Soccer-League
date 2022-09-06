@@ -34,10 +34,6 @@ const App = () => {
             path={PLAYERS_PERFORMANCE}
             element={<PlayersPerformancePage />}
           />
-          <Route
-            path={PLAYERS_PERFORMANCE}
-            element={<PlayersPerformancePage />}
-          />
           <Route path={TEAM_PERFORMANCE} element={<TeamsPerformancePage />} />
           <Route path={UPCOMING_MATCHES} element={<UpcomingMatchesPage />} />
           <Route path={TEAM_SETUP} element={<TeamSetupPage />} />
