@@ -7,7 +7,6 @@ import Wrapper from './Layout/Wrapper';
 // Pages
 import {
   ErrorPage,
-  HomePage,
   PlayersPerformancePage,
   ScorecardPage,
   TeamSetupPage,
@@ -30,7 +29,11 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route element={<Wrapper />}>
-          <Route path='/' element={<HomePage />} />
+          <Route path='/' element={<PlayersPerformancePage />} />
+          <Route
+            path={PLAYERS_PERFORMANCE}
+            element={<PlayersPerformancePage />}
+          />
           <Route
             path={PLAYERS_PERFORMANCE}
             element={<PlayersPerformancePage />}
