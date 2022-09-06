@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 // Layout
 import Wrapper from './Layout/Wrapper';
@@ -29,7 +29,10 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route element={<Wrapper />}>
-          <Route path='/' element={<PlayersPerformancePage />} />
+          {/* <Route path='/' element={<Navigate to={PLAYERS_PERFORMANCE} />}>
+          </Route> */}
+
+          <Route path='/' element={<Navigate to={PLAYERS_PERFORMANCE} />} />
           <Route
             path={PLAYERS_PERFORMANCE}
             element={<PlayersPerformancePage />}
