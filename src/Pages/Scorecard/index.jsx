@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-import { UIPerformanceCard, UITeamChips } from '../../Components';
+import { UITeamChips } from '../../Components';
 
 import { soccerData } from '../../utils/data';
 
 // Styles
-import './performance.modules.css';
+import './scorecard.modules.css';
 
-const TeamsPerformance = () => {
+const Scorecard = () => {
   const [currTeam, setCurrTeam] = useState('enfuego');
 
   const handleShowStat = (value) => setCurrTeam(value);
@@ -17,14 +17,14 @@ const TeamsPerformance = () => {
       <h2 className='main__heading'>Teams</h2>
       <UITeamChips currTeam={currTeam} handleShowStat={handleShowStat} />
 
-      <h2 className='main__heading'>Teams's Performance</h2>
+      <h2 className='main__heading'>Scorecard</h2>
       <section className='stat__cards'>
-        {soccerData[currTeam]?.team_performance?.map((team) => {
-          return <UIPerformanceCard team={team} />;
+        {soccerData[currTeam]?.team_players?.map((team) => {
+          return <></>;
         })}
       </section>
     </div>
   );
 };
 
-export default TeamsPerformance;
+export default Scorecard;

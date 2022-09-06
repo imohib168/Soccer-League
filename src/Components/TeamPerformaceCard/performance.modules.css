@@ -1,0 +1,27 @@
+.team-performance-card {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.team__flag {
+  width: 40%;
+  object-fit: contain;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team__stats {
+  background-color: rgb(92, 248, 181);
+  box-shadow: 10px 10px 80px -50px dimgray;
+  padding: 2em;
+  border-radius: 10px;
+  width: 40%;
+
+  height: fit-content;
+}

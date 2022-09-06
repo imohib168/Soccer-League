@@ -9,6 +9,8 @@ import {
   ErrorPage,
   HomePage,
   PlayersPerformancePage,
+  ScorecardPage,
+  TeamSetupPage,
   TeamsPerformancePage,
   UpcomingMatchesPage,
 } from './Pages';
@@ -20,7 +22,6 @@ const App = () => {
     PLAYERS_PERFORMANCE,
     TEAM_PERFORMANCE,
     UPCOMING_MATCHES,
-    SCHEDULED_MATCHES,
     TEAM_SETUP,
     SCORECARD,
   } = routeEnum;
@@ -36,9 +37,8 @@ const App = () => {
           />
           <Route path={TEAM_PERFORMANCE} element={<TeamsPerformancePage />} />
           <Route path={UPCOMING_MATCHES} element={<UpcomingMatchesPage />} />
-          <Route path={SCHEDULED_MATCHES} element={<HomePage />} />
-          <Route path={TEAM_SETUP} element={<HomePage />} />
-          <Route path={SCORECARD} element={<HomePage />} />
+          <Route path={TEAM_SETUP} element={<TeamSetupPage />} />
+          <Route path={SCORECARD} element={<ScorecardPage />} />
         </Route>
 
         <Route path='*' element={<ErrorPage />} />

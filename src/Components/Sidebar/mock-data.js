@@ -1,11 +1,6 @@
 import { BsPersonFill } from 'react-icons/bs';
 import { RiTeamFill } from 'react-icons/ri';
-import {
-  MdUpcoming,
-  MdWifiProtectedSetup,
-  MdAccessTimeFilled,
-  MdScore,
-} from 'react-icons/md';
+import { MdUpcoming, MdWifiProtectedSetup, MdScore } from 'react-icons/md';
 
 import { routeEnum } from '../../utils';
 
@@ -13,7 +8,6 @@ const {
   PLAYERS_PERFORMANCE,
   TEAM_PERFORMANCE,
   UPCOMING_MATCHES,
-  SCHEDULED_MATCHES,
   TEAM_SETUP,
   SCORECARD,
 } = routeEnum;
@@ -37,12 +31,6 @@ export const menuItems = [
     route: UPCOMING_MATCHES,
     label: 'Upcoming Matches',
   },
-  {
-    id: 4,
-    icon: MdAccessTimeFilled,
-    route: SCHEDULED_MATCHES,
-    label: 'Scheduled Matches',
-  },
-  { id: 5, icon: MdWifiProtectedSetup, route: TEAM_SETUP, label: 'Team Setup' },
-  { id: 6, icon: MdScore, route: SCORECARD, label: 'Detailed Scorecard' },
+  { id: 4, icon: MdWifiProtectedSetup, route: TEAM_SETUP, label: 'Team Setup' },
+  { id: 5, icon: MdScore, route: SCORECARD, label: 'Detailed Scorecard' },
 ];
