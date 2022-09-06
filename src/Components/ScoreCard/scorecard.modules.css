@@ -1,0 +1,23 @@
+.scorecard {
+  width: 350px;
+
+  background-color: rgb(92, 248, 181);
+  box-shadow: 10px 10px 80px -50px dimgray;
+  margin-bottom: 1em;
+
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.opponent {
+  margin-bottom: 1em;
+}
+
+.opponent .vs {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.opponent .teamname {
+  margin-left: 0.3em;
+}
