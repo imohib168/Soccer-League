@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import SoccerField from '../../assets/soccer-field.jpg';
+import FieldPlayer from '../../assets/field-player.png';
 import { UITeamChips } from '../../Components';
 import { soccerData } from '../../utils/data';
 
@@ -23,12 +24,16 @@ const TeamSetup = () => {
 
         {soccerData[currTeam]?.team_players?.map((team) => {
           return (
-            <p
+            <div
               className='player'
               style={{ top: team?.position?.y, left: team?.position?.x }}
             >
-              {team.player_name}
-            </p>
+              <img
+                className='field-player'
+                src={FieldPlayer}
+                alt='field-player'
+              />
+            </div>
           );
         })}
       </div>

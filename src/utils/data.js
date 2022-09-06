@@ -7,7 +7,7 @@ export const soccerData = {
       {
         id: 'player-01',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 510, y: 150 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
@@ -19,7 +19,7 @@ export const soccerData = {
       {
         id: 'player-02',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 340, y: 650 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
@@ -31,7 +31,7 @@ export const soccerData = {
       {
         id: 'player-03',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 750, y: 950 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
@@ -43,7 +43,7 @@ export const soccerData = {
       {
         id: 'player-04',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 800, y: 450 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
@@ -55,7 +55,7 @@ export const soccerData = {
       {
         id: 'player-05',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 700, y: 350 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
@@ -67,7 +67,7 @@ export const soccerData = {
       {
         id: 'player-06',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 150, y: 450 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
@@ -79,7 +79,7 @@ export const soccerData = {
       {
         id: 'player-07',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 650, y: 650 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
@@ -91,7 +91,7 @@ export const soccerData = {
       {
         id: 'player-08',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 750, y: 150 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
@@ -103,7 +103,7 @@ export const soccerData = {
       {
         id: 'player-09',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 150, y: 750 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
@@ -127,7 +127,7 @@ export const soccerData = {
       {
         id: 'player-11',
         player_name: 'Marcel',
-        position: { x: 50, y: 50 },
+        position: { x: 910, y: 750 },
         apperances: '21',
         avatar: PlayerAvatar,
         goals: '3',
