@@ -5,4 +5,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.link {
+  background-color: green;
+  padding: 0.7em 1em;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  margin-top: 1em;
 }
