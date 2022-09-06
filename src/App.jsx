@@ -26,12 +26,10 @@ const App = () => {
   } = routeEnum;
 
   return (
+    
     <BrowserRouter>
       <Routes>
         <Route element={<Wrapper />}>
-          {/* <Route path='/' element={<Navigate to={PLAYERS_PERFORMANCE} />}>
-          </Route> */}
-
           <Route path='/' element={<Navigate to={PLAYERS_PERFORMANCE} />} />
           <Route
             path={PLAYERS_PERFORMANCE}
